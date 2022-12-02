@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  z-rabbit:
+    image: rabbitmq:3-management 
+    ports: 
+       - "5672:5672"
+       - "5671:5671"
+       - "9419:9419"
+       - "4369:4369"
+       - "15671:15671"
+       - "15672:15672" 
